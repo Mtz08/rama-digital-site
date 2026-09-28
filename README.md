@@ -29,7 +29,7 @@ Telefone, mensagens do WhatsApp, Instagram, e-mail, CNPJ, preços dos planos, re
 |---|---|
 | Número do WhatsApp | `whatsapp.numero` (só dígitos, com 55 + DDD) e `whatsapp.exibicao` |
 | Mensagem padrão do WhatsApp | `mensagens.padrao` |
-| Preço de um plano | `planos.essencial.preco` (idem `profissional` e `manutencao`) |
+| Preço de um plano | `planos.essencial.preco` (idem `profissional`) |
 | Instagram | `instagram.usuario` e `instagram.url` |
 | E-mail | `email` |
 | CNPJ | `cnpj` |

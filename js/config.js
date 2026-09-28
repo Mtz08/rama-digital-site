@@ -42,7 +42,6 @@ window.RAMA_CONFIG = Object.freeze({
   planos: {
     essencial:    { nome: 'Essencial',    preco: '[R$ PREÇO]', periodo: '' },
     profissional: { nome: 'Profissional', preco: '[R$ PREÇO]', periodo: '' },
-    manutencao:   { nome: 'Manutenção',   preco: '[R$ PREÇO]', periodo: '/mês' },
   },
 
   /* ---------- Resposta da pergunta "Como funciona o pagamento?" ---------- */

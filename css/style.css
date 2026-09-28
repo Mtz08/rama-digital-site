@@ -1281,11 +1281,13 @@ html:not(.js) .nav {
   display: grid;
   gap: 2rem var(--gap);
   align-items: stretch;
+  max-width: 52rem;
+  margin-inline: auto;
 }
 
-@media (min-width: 64rem) {
+@media (min-width: 48rem) {
   .planos {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
