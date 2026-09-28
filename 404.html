@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página não encontrada | Rama Digital</title>
+  <meta name="description" content="A página que você procurou não existe ou mudou de endereço.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#1A4D3B">
+  <!-- Caminhos absolutos (/css, /js, /img): a 404 é servida em qualquer URL do site. -->
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&amp;display=swap">
+  <link rel="stylesheet" href="/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="/js/config.js" defer></script>
+  <script src="/js/main.js" defer></script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-galho" viewBox="0 0 100 100">
+      <g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round">
+        <path d="M50 90 L50 58 Q50 42 28 28"/>
+        <path d="M50 58 Q50 42 72 28"/>
+      </g>
+      <g fill="currentColor">
+        <circle cx="26" cy="26" r="9"/>
+        <circle cx="74" cy="26" r="9"/>
+        <path d="M50 76 Q55 60 74 58 Q69 75 50 76 Z"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <main class="section--dark pagina-404">
+    <svg class="galho-bg" aria-hidden="true" focusable="false"><use href="#i-galho"/></svg>
+    <div class="container">
+      <a class="logo logo--claro" href="/" aria-label="Rama Digital — voltar ao início">
+        <svg viewBox="0 0 100 100" aria-hidden="true" class="logo-icon">
+          <g fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round">
+            <path d="M50 90 L50 58 Q50 42 28 28"/>
+            <path d="M50 58 Q50 42 72 28"/>
+          </g>
+          <circle cx="26" cy="26" r="9" fill="#6CC08B"/>
+          <circle cx="74" cy="26" r="9" fill="#6CC08B"/>
+          <path d="M50 76 Q55 60 74 58 Q69 75 50 76 Z" fill="#6CC08B"/>
+        </svg>
+        <span class="logo__text" aria-hidden="true">
+          <span class="logo__nome">rama</span>
+          <span class="logo__tag">Digital</span>
+        </span>
+      </a>
+
+      <p class="pagina-404__codigo" aria-hidden="true">404</p>
+      <h1>Esse galho não deu em nada.</h1>
+      <p>A página que você procurou não existe ou mudou de endereço. Que tal voltar para o início?</p>
+
+      <div class="hero__acoes">
+        <a class="btn btn--primary" href="/">Voltar ao início</a>
+        <a class="btn btn--outline-light" href="https://wa.me/5528999119982" target="_blank" rel="noopener" data-whatsapp>Falar no WhatsApp</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

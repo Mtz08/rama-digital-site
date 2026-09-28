@@ -1,0 +1,5 @@
+# [DOMÍNIO] confirme o endereço abaixo
+User-agent: *
+Allow: /
+
+Sitemap: https://ramadigital.com.br/sitemap.xml

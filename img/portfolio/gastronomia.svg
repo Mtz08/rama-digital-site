@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <title>Site modelo — restaurante</title>
+  <rect width="800" height="500" fill="#1A4D3B"/>
+  <rect x="60" y="48" width="680" height="480" rx="14" fill="#FFFFFF"/>
+  <path d="M74 48h652a14 14 0 0 1 14 14v22H60V62a14 14 0 0 1 14-14z" fill="#ECE7DC"/>
+  <g fill="#D3CCBD"><circle cx="84" cy="66" r="5"/><circle cx="100" cy="66" r="5"/><circle cx="116" cy="66" r="5"/></g>
+  <rect x="60" y="84" width="680" height="290" fill="#1A4D3B"/>
+  <rect x="92" y="108" width="110" height="12" rx="3" fill="#F5F2EB"/>
+  <g fill="#FFFFFF" opacity=".45"><rect x="440" y="111" width="44" height="6" rx="3"/><rect x="500" y="111" width="44" height="6" rx="3"/><rect x="560" y="111" width="44" height="6" rx="3"/></g>
+  <rect x="624" y="103" width="84" height="22" rx="11" fill="#6CC08B"/>
+  <rect x="92" y="196" width="230" height="18" rx="4" fill="#FFFFFF"/>
+  <rect x="92" y="224" width="170" height="18" rx="4" fill="#FFFFFF"/>
+  <rect x="92" y="258" width="210" height="7" rx="3.5" fill="#FFFFFF" opacity=".4"/>
+  <rect x="92" y="296" width="130" height="30" rx="15" fill="#6CC08B"/>
+  <circle cx="560" cy="250" r="92" fill="#F5F2EB"/>
+  <circle cx="560" cy="250" r="64" fill="none" stroke="#6CC08B" stroke-width="4"/>
+  <g fill="none" stroke="#F5F2EB" stroke-width="6" stroke-linecap="round">
+    <path d="M432 190v120M420 190v34a12 12 0 0 0 24 0v-34"/>
+    <path d="M690 310V190c-14 10-18 40-18 60h18"/>
+  </g>
+  <g fill="#F5F2EB"><rect x="92" y="398" width="194" height="110" rx="10"/><rect x="303" y="398" width="194" height="110" rx="10"/><rect x="514" y="398" width="194" height="110" rx="10"/></g>
+  <g fill="#6CC08B" opacity=".3"><rect x="92" y="398" width="194" height="50" rx="10"/><rect x="303" y="398" width="194" height="50" rx="10"/><rect x="514" y="398" width="194" height="50" rx="10"/></g>
+  <g fill="#1E2226"><rect x="112" y="462" width="110" height="9" rx="4"/><rect x="323" y="462" width="110" height="9" rx="4"/><rect x="534" y="462" width="110" height="9" rx="4"/></g>
+  <g fill="#1A4D3B"><rect x="232" y="462" width="36" height="9" rx="4"/><rect x="443" y="462" width="36" height="9" rx="4"/><rect x="654" y="462" width="36" height="9" rx="4"/></g>
+</svg>
