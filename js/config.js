@@ -39,7 +39,7 @@ window.RAMA_CONFIG = Object.freeze({
      ou um texto livre (ex.: 'R$ 990,00').
      periodo: texto exibido após o preço (ex.: '/mês'). */
   planos: {
-    essencial:    { nome: 'Essencial',    preco: 'R$ 890,00', periodo: '' },
+    essencial:    { nome: 'Essencial',    preco: 'R$ 790,00', periodo: '' },
     profissional: { nome: 'Profissional', preco: 'R$ 1.290,00', periodo: '' },
   },
 
