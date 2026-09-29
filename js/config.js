@@ -29,23 +29,22 @@ window.RAMA_CONFIG = Object.freeze({
 
   /* ---------- Redes e contato ---------- */
   instagram: {
-    usuario: '[@ramadigital]',
-    url: 'https://www.instagram.com/ramadigital/', // [CONFIRMAR URL do Instagram]
+    usuario: '@ramadigital.oficial',
+    url: 'https://www.instagram.com/ramadigital.oficial/',
   },
   email: '[contato@ramadigital.com.br]',
-  cnpj: '[CNPJ — preencher quando houver]',
 
   /* ---------- Planos ----------
      preco: use um número (ex.: 990) para exibir "R$ 990"
      ou um texto livre (ex.: 'R$ 990,00').
      periodo: texto exibido após o preço (ex.: '/mês'). */
   planos: {
-    essencial:    { nome: 'Essencial',    preco: '[R$ PREÇO]', periodo: '' },
-    profissional: { nome: 'Profissional', preco: '[R$ PREÇO]', periodo: '' },
+    essencial:    { nome: 'Essencial',    preco: 'R$ 890,00', periodo: '' },
+    profissional: { nome: 'Profissional', preco: 'R$ 1.290,00', periodo: '' },
   },
 
   /* ---------- Resposta da pergunta "Como funciona o pagamento?" ---------- */
-  pagamento: '[Definir: ex. 50% na aprovação da proposta e 50% na entrega].',
+  pagamento: 'A forma de pagamento é definida com o contratante.',
 
   /* ---------- Fotos dos sócios ----------
      Deixe '' para exibir as iniciais. Quando tiver as fotos,

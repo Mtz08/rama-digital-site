@@ -23,7 +23,7 @@ Site estático em HTML, CSS e JavaScript puro. Não tem framework nem etapa de b
 
 ### Dados que mudam com frequência → `js/config.js`
 
-Telefone, mensagens do WhatsApp, Instagram, e-mail, CNPJ, preços dos planos, resposta sobre pagamento e fotos dos sócios ficam **só** nesse arquivo. O `main.js` injeta os valores no HTML.
+Telefone, mensagens do WhatsApp, Instagram, e-mail, preços dos planos, resposta sobre pagamento e fotos dos sócios ficam **só** nesse arquivo. O `main.js` injeta os valores no HTML.
 
 | Quero mudar… | Edite em `config.js` |
 |---|---|
@@ -32,7 +32,6 @@ Telefone, mensagens do WhatsApp, Instagram, e-mail, CNPJ, preços dos planos, re
 | Preço de um plano | `planos.essencial.preco` (idem `profissional`) |
 | Instagram | `instagram.usuario` e `instagram.url` |
 | E-mail | `email` |
-| CNPJ | `cnpj` |
 | Resposta "Como funciona o pagamento?" | `pagamento` |
 
 **Preços:** use um número para o site formatar sozinho (`preco: 990` vira "R$ 990") ou um texto livre (`preco: 'R$ 990,00'`).
